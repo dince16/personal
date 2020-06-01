@@ -13,3 +13,8 @@
 .skill-label {
   padding-bottom: 2em;
 }
+
+.hero-body {
+  min-height: 100%;
+  margin-bottom: -25px;
+}
