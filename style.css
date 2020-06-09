@@ -1,9 +1,48 @@
-.main-left {
-  width: 100%;
+p {
+  margin: 10px;
 }
 
-.main-right {
-  width: 5%;
+.hero-body {
+  min-height: 100%;
+  margin-bottom: -25px;
+}
+
+.profile{
+    width: 60%;
+    margin-left: 20%;
+
+}
+
+@media (max-width: 70em) {
+  .profile {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 53em) {
+  .profile {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+.floated{
+    float: left;
+    width: 40%;
+    margin: 2em;
+}
+
+@media (max-width: 70em) {
+  .floated {
+    width: 50%;
+  }
+}
+
+@media (max-width: 53em) {
+  .floated {
+    width: 90%;
+  }
 }
 
 .skill-icon {
@@ -12,9 +51,4 @@
 
 .skill-label {
   padding-bottom: 2em;
-}
-
-.hero-body {
-  min-height: 100%;
-  margin-bottom: -25px;
 }
