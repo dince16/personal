@@ -60,6 +60,7 @@ p {
 }
 
 
+/*************** EXPERIENCE ***************/
 
 .frame {
     height: 400px;      /* equals max image height */
@@ -76,21 +77,6 @@ p {
     vertical-align: middle;
 }
 
-img {
-    background: #3A6F9A;
-    vertical-align: middle;
-    max-height: 400px;
-    max-width: 160px;
-}
-
-
-
-
-
-/*************** EXPERIENCE ***************/
-
-
-
 
 .example {
   cursor: pointer;
@@ -103,19 +89,20 @@ img {
 
 .example .logo {
   display: inline-block;
-
   vertical-align: middle;
 }
 
 .example img {
     vertical-align: middle;
-
     display: inline-block;
     vertical-align: middle;
+    max-height: 300px;
+    max-width: 300px;
+
 }
 
 .example .fadedbox {
-  background-color: #666666;
+  background-color: #969696;
   position: absolute;
   top: 0;
   left: 0;
@@ -131,7 +118,7 @@ img {
   padding: 10% 5%;
 }
 .example:hover .fadedbox {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .example .text {
   font-size: 5vi;
