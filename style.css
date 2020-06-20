@@ -62,6 +62,11 @@ p {
 
 /*************** EXPERIENCE ***************/
 
+.project-statement {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .frame {
     height: 400px;      /* equals max image height */
     width: 300px;
