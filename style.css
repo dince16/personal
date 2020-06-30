@@ -8,6 +8,12 @@ p {
 }
 
 /*************** MAIN ***************/
+
+.title {
+  margin-left: 10px;
+
+}
+
 .profile{
     width: 60%;
     margin-left: 20%;
